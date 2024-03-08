@@ -1,0 +1,50 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+}
+
+#section1 {
+  background-image: url("https://source.unsplash.com/featured/?flowers");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#section2 {
+  background-image: url("https://source.unsplash.com/featured/?flower");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#section3 {
+  background-image: url("https://source.unsplash.com/featured/?blossom");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#section4 {
+  background-image: url("https://source.unsplash.com/featured/?floral");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#section5 {
+  background-image: url("https://source.unsplash.com/featured/?garden");
+  background-size: cover;
+  background-attachment: fixed;
+}
